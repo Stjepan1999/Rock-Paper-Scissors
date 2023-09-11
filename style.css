@@ -1,0 +1,56 @@
+body {
+    background: grey;
+    margin:0;
+  }
+  
+  
+  .header {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Courier", monospace;
+    color: #FAC650;
+    background: #111720;
+  }
+  
+  .buttons {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:30px;
+    gap:15px;
+  }
+  
+  .result {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:60px;
+    color: #FAC650;
+  }
+  
+  .player-computer {
+    display:flex;
+    justify-content:center;
+    gap:100px;
+    color: #FAC650;
+    margin: 50px;
+  }
+  
+  .player, .computer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: #222831;
+    padding: 50px;
+    gap:20px;
+    border: 2px solid #FAC650;
+  }
+  
+  #showing-winner {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 20px;
+  }
+  

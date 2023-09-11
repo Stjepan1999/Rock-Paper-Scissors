@@ -4,7 +4,7 @@ body {
   }
   
   
-  .header {
+.header {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -13,7 +13,7 @@ body {
     background: #111720;
   }
   
-  .buttons {
+.buttons {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -21,7 +21,7 @@ body {
     gap:15px;
   }
   
-  .result {
+.result {
     display:flex;
     justify-content:center;
     align-items:center;
@@ -29,7 +29,7 @@ body {
     color: #FAC650;
   }
   
-  .player-computer {
+.player-computer {
     display:flex;
     justify-content:center;
     gap:100px;
@@ -37,7 +37,7 @@ body {
     margin: 50px;
   }
   
-  .player, .computer{
+.player, .computer{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -47,10 +47,16 @@ body {
     border: 2px solid #FAC650;
   }
   
-  #showing-winner {
+#showing-winner {
     display:flex;
     justify-content:center;
     align-items:center;
     margin: 20px;
   }
   
+
+.score {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

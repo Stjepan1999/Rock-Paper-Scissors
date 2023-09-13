@@ -1,62 +1,103 @@
 body {
-    background: grey;
-    margin:0;
-  }
-  
-  
-.header {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-family: "Courier", monospace;
-    color: #FAC650;
-    background: #111720;
-  }
-  
-.buttons {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:30px;
-    gap:15px;
-  }
-  
-.result {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:60px;
-    color: #FAC650;
-  }
-  
-.player-computer {
-    display:flex;
-    justify-content:center;
-    gap:100px;
-    color: #FAC650;
-    margin: 50px;
-  }
-  
-.player, .computer{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    background: #222831;
-    padding: 50px;
-    gap:20px;
-    border: 2px solid #FAC650;
-  }
-  
-#showing-winner {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin: 20px;
-  }
-  
+  background: grey;
+  margin:0;
+  font-family: "Courier", monospace;
+}
 
-.score {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+
+.header {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family: "Courier", monospace;
+  color: #FAC650;
+  background: #111720;
+}
+
+
+button {
+  width: 70px;
+  transition: all .07s;
+}
+
+.player-buttons {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:30px;
+  gap:15px;
+  border-radius: 5px;
+}
+
+.current-choice {
+    transform:scale(1.1);
+    border-color:#FAC650;
+    box-shadow: 0 0 5px #FAC650;
+}
+
+.current-computer-choice {
+    transform:scale(1.0);
+    border-color:#FAC650;
+    border: 3px solid #FAC650;
+    box-shadow:0 0 4px #FAC650;
+}
+
+.result {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:60px;
+  color: #FAC650;
+}
+
+.player-computer {
+  display:flex;
+  justify-content:center;
+  gap:100px;
+  color: #FAC650;
+  margin: 50px;
+  font-size:28px;
+}
+
+.player, .computer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #222831;
+  height: 220px;
+  width:270px;
+  gap:20px;
+  border: 2px solid #FAC650;
+}
+
+#winner {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 20px;
+  font-size: 32px;
+  height: 30px;
+  color: #FAC650;
+}
+
+.player-score, .computer-score{
+  gap: 10px;
+}
+
+.computer-choice {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 16px;
+  gap:15px;
+  margin:0 0 25px 0;
+}
+
+.computer-choice div {
+  width: 70px;
+  background: lightgrey;
+  color:black;
+  border-radius: 2px;
+  font-family: "Times New Roman", sans-serif;
 }

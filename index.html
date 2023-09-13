@@ -4,28 +4,24 @@
   <meta charset = "UTF-8">
   <title>RPS Game</title>
   <link rel="stylesheet" href="./style.css">
-  
 </head>
 
 <body>
-  <script src="./script.js"></script>
   <div class="header">
     <h1>ROCK - PAPER - SCISSORS</h1>
   </div>
   
-  <div id="showing-winner">
-    You won
-  </div>
+  <div id="winner"></div>
   
   <div class = "player-computer">
     <div class="player">
       <div>
         <div>PLAYER</div>
       </div>
-      <div class="score">
+      <div class="player-score">
         <div>SCORE: </div>
       </div>
-      <div>
+      <div class = "player-buttons">
         <button id="rock">Rock</button>
         <button id="paper">Paper</button>
         <button id="scissors">Scissors</button>
@@ -37,19 +33,16 @@
         <div>COMPUTER</div>
       </div>
       <div>
-        <div>SCORE: </div>
+        <div class="computer-score">SCORE:</div>
       </div>
-      <div>
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+      <div class = "computer-choice">
+        <div id="computer-rock">Rock</div>
+        <div id="computer-paper">Paper</div>
+        <div id="computer-scissors">Scissors</div>
       </div>
     </div>
   </div>
   
-  <div class="result">
-  </div>
-  
-  
+  <script src="./script.js"></script>
 </body>
 </html>
